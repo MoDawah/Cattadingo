@@ -1,0 +1,172 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+}
+
+#title {
+    background-color: #072227;
+}
+
+
+h1 {
+    font-family: 'Ubuntu';
+    color: rgb(255, 255, 255);
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 3rem;
+
+}
+
+h3 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+p {
+    color: #6d6b6b;
+}
+
+.navbar {
+    padding: 0 0 5rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+.container-fluid {
+   padding: 4% 15% 7%;
+}
+
+.head-cat {
+    width: 60%;
+    position: absolute;
+}
+
+.pic-col {
+}
+
+#features {
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.icon {
+    color: black;
+    margin-bottom: 2rem;
+}
+.icon:hover {
+    color: #0a6777;
+}
+
+
+#testimonials {
+
+    text-align: center;
+    background-color: #072227;
+    color: #fff;
+}
+.testimonial-text {
+    font-size: 2.5rem;
+    line-height: 1.5;
+
+}
+
+.cat-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+
+#press {
+    background-color: #072227 ;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#pricing {
+
+    padding: 100px;
+    text-align: center;
+
+}
+
+
+
+
+.cta-heading {
+    font-family: 'Ubuntu';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+@media (max-width:1028px){
+    .head-cat {
+        position: static;
+    }
+
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+
+#cta {
+    background-color: #072227;
+    color: #fff;
+    padding: 6%;
+}
+
+
+#footer {
+    padding: 4%;
+}
+
+.footer-icon {
+    margin: 1%;
+}
+
+.footer-p {
+    margin-top: 2%;
+}
+
+.footer-icon:hover {
+    color: #061316;
+}
