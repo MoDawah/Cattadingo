@@ -40,6 +40,11 @@ p {
 
 .navbar-brand {
     font-size: 2rem;
+    transition: 0.5s ease;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.1);
 }
 
 .nav-item {
@@ -53,6 +58,10 @@ p {
 
 .download-button {
     margin: 5% 3% 5% 0;
+    transition: 0.5s ease;
+}
+.download-button:hover {
+    transform: scale(1.1);
 }
 
 
