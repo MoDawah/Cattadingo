@@ -129,6 +129,13 @@ p {
     padding: 7% 15%;
 }
 
+.card {
+  transition: 0.5s ease;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
 #pricing {
 
     padding: 100px;
